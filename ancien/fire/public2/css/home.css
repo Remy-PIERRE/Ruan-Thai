@@ -1,0 +1,407 @@
+html {
+	overflow-y: scroll
+}
+body {
+	margin: 0;
+	background-color: #fff;
+	font: normal 11px "Open Sans", Arial;
+	color: #4a5054
+}
+.dark-violet {
+	color: #821e58
+}
+.dark-violet2 {
+	color: #65043d
+}
+.light-violet {
+	color: #8e647d
+}
+.bg-beige {
+	background-color: #f1e5d6
+}
+.central {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto
+}
+.third {
+	float: left;
+	width: 286px;
+	margin-top: 30px
+}
+.decal30 {
+	margin-left: 40px
+}
+.violet {
+	background-image: url(../images/bg-large.jpg);
+	background-position: -370px 270px
+}
+#menu-top {
+	height: 64px
+}
+#top-text {
+	background-image: url(../images/phone-icon.png);
+	background-repeat: no-repeat;
+	background-position: 0 6px;
+	float: left;
+	width: 594px;
+	height: 44px;
+	font-size: 14px;
+	color: #fff;
+	padding-left: 50px;
+	padding-top: 20px
+}
+#top-logo {
+	float: left;
+	width: 80px;
+	height: 64px;
+	background-image: url(../images/haut-logo.png)
+}
+#nav {
+	width: 940px;
+	margin-left: auto;
+	margin-right: auto
+}
+#navigation {
+	clear: both;
+	background-color: #fff;
+	height: 120px
+}
+#navigation .actif, #navigation .onglet {
+	float: left;
+	padding: 50px 26px 0 26px
+}
+.actif {
+	background-image: url(../images/triangle-over.jpg);
+	background-position: 50% 72px;
+	background-repeat: no-repeat;
+	background-color: #8b1c5a;
+	height: 70px;
+	font-size: 16px;
+	color: #fff
+}
+.home {
+	background-image: url(../images/home-icon.png);
+	background-repeat: no-repeat;
+	background-position: 41px 52px;
+	width: 46px;
+	background-color: #8b1c5a;
+	height: 70px;
+	float: left;
+	padding: 50px 26px 0 26px
+}
+.onglet {
+	background-image: url(../images/triangle.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 72px;
+	height: 70px;
+	display: block
+}
+.onglet a {
+	font-size: 16px;
+	color: #8b1c5a
+}
+.onglet a:link, .onglet a:visited, .onglet a:active, .onglet a:hover {
+	text-decoration: none
+}
+#logo {
+	margin-right: 85px;
+	float: right
+}
+#menu-bottom {
+	background-image: url(../images/bg-large.jpg)
+}
+#menu-bottom .central {
+	height: 470px;
+	background-image: url(../images/nuad-thai-massage-traditionel.png);
+	background-repeat: no-repeat;
+	background-position: 628px 0
+}
+#bottom-img {
+	float: left;
+	margin-top: 84px
+}
+#bottom-text {
+	float: left;
+	margin-top: 164px;
+	margin-left: 45px;
+	width: 500px
+}
+#bottom-text .titre {
+	float: left;
+	font: normal 44px Arial;
+	color: #f9c68a
+}
+#bottom-text .titre2 {
+	margin-top: 13px;
+	clear: both;
+	float: left;
+	margin-left: 20px;
+	font: normal 22px Arial;
+	color: #eee1d1
+}
+#bottom-text .present {
+	margin-top: 14px;
+	clear: both;
+	float: right;
+	font-size: 14px;
+	color: #eee1d1
+}
+#bandeau {
+	clear: both;
+	background-image: url(../images/rayure.jpg)
+}
+#slogan {
+	float: left;
+	padding-top: 0;
+	font-size: 43px;
+	padding-top: 50px;
+	height: 106px;
+	color: #8e1c5a
+}
+#slogan2 {
+	float: left;
+	padding-left: 20px;
+	padding-top: 72px;
+	font-size: 16px;
+	color: #8e647d
+}
+#slogan3 {
+	float: right
+}
+.circle-img {
+	float: right;
+	padding-left: 20px;
+	padding-top: 12px
+}
+#about {
+	clear: both;
+	height: 360px;
+	padding: 32px 0;
+	background-color: #fff
+}
+.about-left {
+	float: left
+}
+.about-right {
+	float: left;
+	margin-left: 60px
+}
+.line-button {
+	clear: both;
+	float: left;
+	cursor: pointer;
+	width: 400px;
+	height: 38px;
+	background-color: #8b1c5a;
+	background-image: url(../images/bg-large.jpg);
+	background-position: -770px 270px;
+	font-size: 20px;
+	color: #ffe4ca;
+	padding-left: 20px;
+	padding-top: 13px;
+	margin-bottom: 6px;
+	border-radius: 4px
+}
+.arrow-down {
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid red
+}
+.arrow-right {
+	float: left;
+	width: 0;
+	height: 0;
+	border-top: 6px solid transparent;
+	border-bottom: 6px solid transparent;
+	border-left: 10px solid #ffe4ca;
+	margin-right: 10px;
+	margin-top: 7px
+}
+.formule {
+	width: 440px;
+	height: 55px;
+	padding-top: 30px;
+	clear: both;
+	float: left;
+	font-size: 16px;
+	color: #8e1c5a;
+	margin-bottom: 5px;
+	border-bottom: 1px dashed #8e1c5a
+}
+.price {
+	cursor: pointer;
+	margin-top: -30px;
+	font-size: 24px;
+	float: right;
+	clear: both;
+	padding-top: 24px;
+	padding-left: 18px;
+	width: 60px;
+	height: 54px;
+	background-image: url(../images/price.jpg)
+}
+#about-title {
+	float: left;
+	font-size: 26px;
+	color: #8e1c5a;
+	text-align: bottom;
+	margin-right: 20px;
+	padding-bottom: 20px
+}
+#about-line, #about-line2 {
+	float: left;
+	margin-top: 15px;
+	width: 150px;
+	height: 3px;
+	background-color: #b89ead;
+	border-left-style: solid;
+	border-left-color: #821e58;
+	border-left-width: 60px
+}
+#about-line2 {
+	width: 233px
+}
+#presentation {
+	height: 206px;
+	background-color: #fff
+}
+#presentation-text {
+	float: left;
+	padding-top: 12px;
+	width: 690px;
+	font-size: 12px;
+	text-align: bottom
+}
+#presentation-img {
+	float: right
+}
+#milieu {
+	height: 170px
+}
+#milieu-left {
+	padding-top: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 31px;
+	float: left;
+	width: 150px;
+	height: 130px
+}
+#milieu-center {
+	float: left;
+	margin-top: 30px;
+	width: 3px;
+	height: 120px;
+	background-color: #b89ead
+}
+#milieu-right {
+	float: left;
+	width: 667px;
+	font-size: 12px;
+	padding-top: 40px;
+	padding-left: 20px;
+	padding-right: 20px
+}
+#bas-de-page {
+	height: 80px;
+	background-image: url(../images/bg-large.jpg)
+}
+.bas-tilte {
+	float: left;
+	color: #f9c68a;
+	font-size: 20px
+}
+.bas-line {
+	float: right;
+	margin-top: 13px;
+	width: 80px;
+	height: 3px;
+	background-color: #fff;
+	border-left-style: solid;
+	border-left-color: #f9c68a;
+	border-left-width: 40px
+}
+.bulle-text {
+	margin-top: 14px;
+	margin-right: 6px;
+	float: right;
+	color: #fff;
+	font-style: italic
+}
+.news-text {
+	background-image: url(../images/calendar.png);
+	background-repeat: no-repeat;
+	background-position: 0 24px;
+	padding-top: 20px;
+	padding-left: 26px;
+	font-size: 13px;
+	float: left;
+	color: #fff
+}
+.news-date {
+	padding-top: 6px;
+	padding-left: 26px;
+	font-size: 13px;
+	float: left;
+	color: #b25d8a
+}
+.bulle {
+	float: left;
+	margin-top: 20px;
+	color: #fff;
+	padding: 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	position: relative;
+	height: auto;
+	background-color: rgba(255,255,255,0.2);
+	font-size: 13px
+}
+.bulle-triangle {
+	content: ' ';
+	margin-right: 20px;
+	float: right;
+	width: 0;
+	height: 0;
+	right: 20px;
+	top: 100%;
+	border-width: 16px 14px 8px 0;
+	border-style: solid;
+	border-color: rgba(255,255,255,0.2) transparent transparent rgba(255,255,255,0.2);
+	-webkit-border-bottom-left-radius: 15px;
+	-moz-border-radius-bottomleft: 15px;
+	border-bottom-left-radius: 15px
+}
+.dot-line {
+	clear: both;
+	padding-top: 20px;
+	border-bottom: 1px dashed #f9c68a
+}
+#footer {
+	height: 50px;
+	background-color: #510b36
+}
+#nuage {
+	clear: both;
+	float: left;
+	margin-top: 20px
+}
+.tag {
+	float: left;
+	margin-right: 6px;
+	margin-bottom: 6px;
+	padding: 10px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	position: relative;
+	width: auto;
+	height: auto;
+	color: #fff;
+	font-size: 13px;
+	background-color: rgba(255,255,255,0.2)
+}
