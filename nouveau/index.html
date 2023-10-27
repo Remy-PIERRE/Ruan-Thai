@@ -6,8 +6,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Ruan Thaï- Salon de Massage Thaï - Nantes</title>
 
+		<!-- DEV -->
 		<link rel="stylesheet" href="style/main.css" />
 		<link rel="stylesheet" href="style/header.css" />
+		<link rel="stylesheet" href="style/formules.css" />
+		<link rel="stylesheet" href="style/prestations.css" />
+		<link rel="stylesheet" href="style/about.css" />
+		<link rel="stylesheet" href="style/contact.css" />
+		<link rel="stylesheet" href="style/footer.css" />
 	</head>
 
 	<body>
@@ -21,28 +27,28 @@
 				<div class="header__nav__wrapper container">
 					<div class="header__nav--desk">
 						<div class="menu__link__wrapper">
-							<a href="#">Le Salon</a>
+							<a href="#salon">Le Salon</a>
 						</div>
 						<div class="menu__link__wrapper">
-							<a href="#">Les formules</a>
+							<a href="#formules">Les formules</a>
 						</div>
 						<div class="menu__link__wrapper">
-							<a href="#">Ruan</a>
+							<a href="#about">Ruan</a>
 						</div>
 						<div class="menu__link__wrapper">
-							<a href="#">Contact</a>
+							<a href="#contact">Contact</a>
 						</div>
 					</div>
 
 					<div class="menu__mobile--opener">
 						<img
-							src="public/icons/hamburger_icon.svg"
+							src="public/icons/hamburger.png"
 							alt="icone pour ouvrir le menu de navigation mobile" />
 					</div>
 
 					<div class="header__logo">
 						<img
-							src="public/images/logo-ruan-thai.jpg"
+							src="public/images/logo-ruan-thai.webp"
 							alt="logo de Ruan Tai" />
 					</div>
 
@@ -50,11 +56,11 @@
 				</div>
 			</nav>
 
-			<section class="header__hero container">
+			<section class="header__hero container" id="salon">
 				<div class="hero__wrapper">
 					<div class="hero__image">
 						<img
-							src="public/images/le-spa-ruan-thai-nantes.png"
+							src="public/images/le-spa-ruan-thai-nantes.webp"
 							alt="image du salon Ruan Tai" />
 					</div>
 
@@ -63,9 +69,9 @@
 						<h2>Salon de massage Thaïlandais</h2>
 
 						<p>
-							Dans un environnement soign&eacute; et une ambiance
-							chaleureuse,<strong>&agrave; 15 minutes</strong> de Nantes Ruan
-							Malbec, professionnelle dipl&ocirc;m&eacute;e en massage tha&iuml;
+							Dans un environnement soign&eacute; et une ambiance chaleureuse,
+							<strong>&agrave; 15 minutes</strong> de Nantes Ruan Malbec,
+							professionnelle dipl&ocirc;m&eacute;e en massage tha&iuml;
 							th&eacute;rapeutique de l&rsquo;&eacute;cole de Chiang Mai นวดไทย,
 							vous propose un moment privil&eacute;gi&eacute; de d&eacute;tente
 							et de bien &ecirc;tre , une pause zen , une respiration dans ce
@@ -85,21 +91,368 @@
 				<div class="menu__wrapper--mobile container">
 					<nav class="header__nav--mobile">
 						<div class="menu__link__wrapper">
-							<a href="#">Le Salon</a>
+							<a href="#salon">Le Salon</a>
 						</div>
 						<div class="menu__link__wrapper">
-							<a href="#">Les formules</a>
+							<a href="#formules">Les formules</a>
 						</div>
 						<div class="menu__link__wrapper">
-							<a href="#">Ruan</a>
+							<a href="#about">Ruan</a>
 						</div>
 						<div class="menu__link__wrapper">
-							<a href="#">Contact</a>
+							<a href="#contact">Contact</a>
 						</div>
 					</nav>
 				</div>
 			</section>
 		</header>
+
+		<main>
+			<!-- FORMULES -->
+			<section class="formules container" id="formules">
+				<div class="formules__title section--title">
+					<h2>LES FORMULES</h2>
+					<div class="decoration--title"></div>
+				</div>
+
+				<!-- FORMULE 1 -->
+				<div class="formule__wrapper">
+					<div class="formule__prestation__wrapper">
+						<a href="#massageTrad">
+							<img />
+							<h3>MASSAGE THAI TRADITIONNEL 1H</h3>
+						</a>
+						<a href="#sauna">
+							<img />
+							<h3>SAUNA</h3>
+						</a>
+					</div>
+
+					<div class="formule__price__wrapper">
+						<div class="formule__price">
+							<img
+								src="public/images/deco-price.webp"
+								alt="décoration pour l'affichage du prix" />
+							<p>80€</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="separator--formules"></div>
+
+				<!-- FORMULE 2 -->
+				<div class="formule__wrapper">
+					<div class="formule__prestation__wrapper">
+						<a href="#massageTrad">
+							<img />
+							<h3>MASSAGE THAI TRADITIONNEL 1H30</h3>
+						</a>
+						<a href="#sauna">
+							<img />
+							<h3>SAUNA</h3>
+						</a>
+					</div>
+
+					<div class="formule__price__wrapper">
+						<div class="formule__price">
+							<img
+								src="public/images/deco-price.webp"
+								alt="décoration pour l'affichage du prix" />
+							<p>100€</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="separator--formules"></div>
+
+				<!-- FORMULE 3 -->
+				<div class="formule__wrapper">
+					<div class="formule__prestation__wrapper">
+						<a href="#massageHuile">
+							<img />
+							<h3>MASSAGE &Agrave L'HUILE 1H15</h3>
+						</a>
+						<a href="#sauna">
+							<img />
+							<h3>SAUNA</h3>
+						</a>
+					</div>
+
+					<div class="formule__price__wrapper">
+						<div class="formule__price">
+							<img
+								src="public/images/deco-price.webp"
+								alt="décoration pour l'affichage du prix" />
+							<p>110€</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- FORMULES FIN -->
+
+			<!-- PRESTATIONS -->
+			<section class="prestations container">
+				<div class="prestations__title section--title">
+					<h2>LES PRESTATIONS</h2>
+					<div class="decoration--title"></div>
+				</div>
+
+				<!-- PRESTATION 1 -->
+				<div class="prestation" id="massageTrad">
+					<h3>MASSAGE THAI TRADITIONNEL</h3>
+					<div class="prestation__image">
+						<img
+							src="public/images/massage-thai.webp"
+							alt="démonstration d'un massage thai" />
+					</div>
+
+					<div class="prestation__content">
+						<p>
+							Ce soin consiste à travailler sur les points d'acupuncture, le
+							long des méridiens par pressions successives. Vous serez invité à
+							porter une tenue souple et légère afin de profiter au maximum des
+							bienfaits du soin.
+						</p>
+						<p>
+							Ce massage à pour but de libérer le corps en douceur de ses
+							tensions et d’assouplir les articulations. Ainsi, le corps
+							retrouve sa souplesse et sa fluidité.
+						</p>
+					</div>
+
+					<div class="prestation__price__wrapper">
+						<div class="prestation__price">
+							<p>1h</p>
+							<img
+								src="public/images/deco-price-red.webp"
+								alt="décoration pour l'affichage du prix" />
+							<p>70€</p>
+						</div>
+
+						<div class="separator--prices"></div>
+
+						<div class="prestation__price">
+							<p>1h30</p>
+							<img
+								src="public/images/deco-price-red.webp"
+								alt="décoration pour l'affichage du prix" />
+							<p>90€</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="separator--prestations"></div>
+
+				<!-- PRESTATION 2 -->
+				<div class="prestation" id="massageHuile">
+					<h3>MASSAGE A L'HUILE</h3>
+					<div class="prestation__image">
+						<img
+							src="public/images/massage-huile.webp"
+							alt="préparation d'un massage à l'huile" />
+					</div>
+
+					<div class="prestation__content">
+						<p>
+							Ce soin se pratique à même la peau en portant un sous vêtement.
+							L’huile de massage aromatisée aux huiles essentielles va permettre
+							aux mains de glisser par pressions légères et de travailler ainsi,
+							en alternance, sur un rythme continu, à détendre les muscles.
+							Grâce aux mouvements fluides et réguliers des mains, votre corps
+							se relaxe, Vous vous sentez totalement déstressé et détendu
+							parvenant ainsi à retrouver harmonie et équilibre.
+						</p>
+					</div>
+
+					<div class="prestation__price__wrapper">
+						<div class="prestation__price">
+							<p>1h15</p>
+							<img
+								src="public/images/deco-price-red.webp"
+								alt="décoration pour l'affichage du prix" />
+							<p>100€</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="separator--prestations"></div>
+
+				<!-- PRESTATION 3 -->
+				<div class="prestation" id="sauna">
+					<h3>SAUNA</h3>
+					<div class="prestation__image">
+						<img
+							src="public/images/massage-sauna.webp"
+							alt="photographie du sauna" />
+					</div>
+
+					<div class="prestation__content">
+						<p>
+							SAUNALe sauna est un bain chaleur sèche dans une cabine en bois
+							chauffée à l'aide d'un poêl pour conserver une température qui
+							varie entre 50'C a 70'C.
+						</p>
+						<p>
+							La chaleur sèche ou humide engendre une transpiration qui dilate
+							les pores de la peau, permettant ainsi d'éliminer les toxines
+							accumulées au cours d'une journée de travail ou d'effort physique.
+							Idéal en complement d'un massage. Ces séances chassent le stress,
+							relaxe les muscles et favorise le sommeil.25 €
+						</p>
+					</div>
+
+					<div class="prestation__price__wrapper">
+						<div class="prestation__price">
+							<p></p>
+							<img
+								src="public/images/deco-price-red.webp"
+								alt="décoration pour l'affichage du prix" />
+							<p>25€</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- PRESTATIONS FIN -->
+
+			<!-- A PROPOS -->
+			<section class="about container" id="about">
+				<div class="about__wrapper">
+					<div class="about__title section--title">
+						<h2>RUAN MALBEC</h2>
+						<div class="decoration--title"></div>
+					</div>
+
+					<div class="about__content">
+						<p>
+							Née en 1966 à Chiang Rai, province nord de la Thaïlande. De 1988 à
+							1989, Ruan a suivi sa formation à l'hôpital de médecine
+							traditionnelle à Chiang Mai, dont la spécialité est le massage
+							thaï traditionnel.
+						</p>
+						<p>
+							En France, depuis 2003, Ruan vous propose de faire partager
+							l'exercice de son art. Aujourd'hui, elle a développé sa technique
+							de massage à l'huile et ainsi mis à disposition un sauna et un
+							hammam.
+						</p>
+					</div>
+
+					<div class="about__image">
+						<img
+							src="public/images/ruan-malbec.webp"
+							alt="photographie de Ruan Malbec" />
+					</div>
+				</div>
+			</section>
+			<!-- A PROPOS FIN -->
+
+			<!-- CONTACT -->
+			<section class="contact container" id="contact">
+				<div class="contact__title section--title">
+					<h2>CONTACT</h2>
+					<div class="decoration--title"></div>
+				</div>
+
+				<div class="map__wrapper">
+					<iframe
+						width="425"
+						height="350"
+						src="https://www.openstreetmap.org/export/embed.html?bbox=-1.7423146963119507%2C47.31590831712915%2C-1.7395520210266116%2C47.316810245058754&amp;layer=mapnik"
+						style="border: 1px solid black"></iframe
+					><br /><small
+						><a href="https://www.openstreetmap.org/#map=19/47.31636/-1.74093"
+							>Afficher une carte plus grande</a
+						></small
+					>
+				</div>
+
+				<div class="contact__content__wrapper">
+					<div class="contact__content">
+						<h4>Ruan Thai</h4>
+
+						<div class="contact__content__element">
+							<img
+								src="public/icons/localization.png"
+								alt="icone de localisation" />
+							<p>
+								3 rue du petit prince 44360 Vigneux de Bretagne (15 min. de
+								Nantes)
+							</p>
+						</div>
+
+						<div class="contact__content__element">
+							<img src="public/icons/phone.png" alt="icone de téléphone fixe" />
+							<p>02 28 02 07 73</p>
+						</div>
+
+						<div class="contact__content__element">
+							<img
+								src="public/icons/mobile.png"
+								alt="icone de téléphone portable" />
+							<p>06 72 27 46 55</p>
+						</div>
+					</div>
+
+					<div class="contact__content">
+						<h4>Horaires</h4>
+						<p><strong>Lundi - Samedi :</strong> 9h - 19h Sur rendez-vous</p>
+					</div>
+				</div>
+			</section>
+			<!-- CONTACT FIN -->
+		</main>
+
+		<footer>
+			<div class="footer__wrapper">
+				<div class="footer__testimonial container">
+					<h4>LIVRED'OR</h4>
+
+					<div class="testimonial__wrapper">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt
+							quisquam corporis labore dolor earum officia, itaque repellendus
+							sit dignissimos qui?
+						</p>
+						<p class="author"><span>Lorem, ipsum.</span></p>
+					</div>
+					<div class="testimonial__wrapper">
+						<p>
+							Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae
+							quaerat at quasi? Aperiam, vitae ipsam.
+						</p>
+						<p class="author"><span>Lorem, ipsum.</span></p>
+					</div>
+					<div class="testimonial__wrapper">
+						<p>
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae
+							totam, nostrum sit et nesciunt corporis quis pariatur nam.
+						</p>
+						<p class="author"><span>Lorem, ipsum.</span></p>
+					</div>
+				</div>
+
+				<nav class="footer__nav">
+					<div class="menu__link__wrapper--footer">
+						<a href="#salon">Le Salon</a>
+					</div>
+					<div class="menu__link__wrapper--footer">
+						<a href="#formules">Les formules</a>
+					</div>
+					<div class="menu__link__wrapper--footer">
+						<a href="#about">Ruan</a>
+					</div>
+					<div class="menu__link__wrapper--footer">
+						<a href="#contact">Contact</a>
+					</div>
+				</nav>
+
+				<div class="footer__mentions container">
+					<p>Ruan Thai - tous droits réservés</p>
+					<p>-</p>
+					<p>Mentions légales</p>
+				</div>
+			</div>
+		</footer>
 
 		<script type="module" src="scripts/main.js"></script>
 	</body>

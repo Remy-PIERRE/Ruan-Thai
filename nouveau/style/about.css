@@ -1,0 +1,31 @@
+.about {
+	padding: 60px 0 0;
+}
+
+.about__wrapper {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.about__image {
+	order: 1;
+	height: 175px;
+	width: 175px;
+}
+.about__image img {
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+.about__content {
+	order: 2;
+}
+.about__content p {
+	font-size: 16px;
+	color: var(--text-black);
+	margin-top: 16px;
+	text-align: justify;
+}

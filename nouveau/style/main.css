@@ -8,6 +8,7 @@
 	--text-black: #000;
 
 	--color-white: #fff;
+	--color-black: #000;
 	--color-main: #510b36;
 	--color-main-light: #b89ead;
 }
@@ -34,6 +35,51 @@ body {
 .container {
 	padding-left: 20px !important;
 	padding-right: 20px !important;
+}
+
+.section--title {
+	width: 100%;
+	position: relative;
+	margin-bottom: 32px;
+}
+.section--title h2 {
+	width: fit-content;
+	font-size: 28px;
+	font-weight: bold;
+	color: var(--text-main);
+	padding: 0 4px;
+	margin-left: 8px;
+	background: var(--color-white);
+	position: relative;
+	z-index: 1;
+}
+.decoration--title {
+	height: 4px;
+	width: 100%;
+	background: var(--color-main-light);
+	border-radius: 2px;
+	position: absolute;
+	left: 0;
+	bottom: 9px;
+}
+
+.separator--formules {
+	height: 2px;
+	width: 100%;
+	border-top: 2px dashed var(--color-main-light);
+	margin: 20px 0;
+}
+.separator--prices {
+	height: 2px;
+	width: 150px;
+	border-top: 2px dashed var(--color-main-light);
+	margin: 30px 0;
+}
+.separator--prestations {
+	height: 2px;
+	width: 100%;
+	border-top: 2px dashed var(--color-main-light);
+	margin: 28px 0;
 }
 
 @media (min-width: 600px) {

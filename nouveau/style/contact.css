@@ -1,0 +1,44 @@
+.contact {
+	padding: 60px 0 20px;
+}
+
+.map__wrapper {
+	margin-bottom: 40px;
+}
+.map__wrapper iframe {
+	width: 100%;
+}
+
+.contact__content__wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.contact__content {
+	margin-bottom: 32px;
+}
+.contact__content h4 {
+	font-size: 22px;
+	font-weight: bold;
+	color: var(--text-main);
+	margin-bottom: 16px;
+}
+
+.contact__content__element {
+	display: grid;
+	grid-template-columns: 50px 1fr;
+	align-items: center;
+	margin-bottom: 12px;
+}
+.contact__content__element img {
+	width: 22px;
+	height: auto;
+}
+.contact__content__element p {
+	font-size: 16px;
+	color: var(--text-black);
+}
+.contact__content__element strong {
+	font-weight: bold;
+}
