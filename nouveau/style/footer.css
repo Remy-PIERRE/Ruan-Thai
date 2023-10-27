@@ -1,13 +1,13 @@
 footer {
 	width: 100%;
-	background-image: url(../public/images/bg-large.jpg);
+	background-image: url(../public/images/bg-large.webp);
 }
 
 .footer__wrapper {
 	padding: 40px 0;
 }
 
-footer h4 {
+footer h3 {
 	font-size: 32px;
 	font-weight: bold;
 	color: var(--text-gold);
@@ -48,14 +48,13 @@ footer .author {
 .menu__link__wrapper--footer a {
 	display: flex;
 	align-items: center;
-	padding: 16px 0;
+	padding: 16px 0 16px 8px;
 	border-top: 1px solid var(--color-white);
 	cursor: pointer;
 	font-size: 20px;
 	font-weight: bold;
 	color: var(--text-white);
 	transition: all 0.4s ease-in-out;
-	margin: 0 20px;
 }
 .menu__link__wrapper--footer:last-child a {
 	border-bottom: 1px solid var(--color-white);
@@ -75,4 +74,45 @@ footer .author {
 }
 .footer__mentions p {
 	font-size: 12px;
+}
+
+@media (min-width: 600px) {
+	.footer__mentions {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	.footer__mentions p:nth-child(2) {
+		display: none;
+	}
+}
+
+@media (min-width: 976px) {
+	.footer__wrapper {
+		padding: 80px 0 40px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+		row-gap: 60px;
+	}
+
+	.footer__testimonial {
+		width: 55%;
+		margin-bottom: 0;
+	}
+
+	.footer__nav {
+		width: 40%;
+		max-width: 400px;
+		padding-right: 60px;
+		margin-bottom: 0;
+	}
+
+	.menu__link__wrapper--footer a {
+		justify-content: center;
+	}
+
+	.footer__mentions {
+		width: 100%;
+	}
 }

@@ -32,6 +32,10 @@ body {
 	max-width: 100%;
 }
 
+* {
+	scroll-behavior: smooth;
+}
+
 .container {
 	padding-left: 20px !important;
 	padding-right: 20px !important;
@@ -87,12 +91,34 @@ body {
 		padding-left: 40px !important;
 		padding-right: 40px !important;
 	}
+
+	.section--title h2 {
+		font-size: 32px;
+		padding: 0 6px;
+		margin-left: 12px;
+	}
+	.decoration--title {
+		bottom: 9px;
+	}
+
+	.separator--prices {
+		margin: 40px 0;
+		width: 175px;
+	}
 }
 
 @media (min-width: 976px) {
 	.container {
 		padding-left: 60px !important;
 		padding-right: 60px !important;
+	}
+
+	.separator--prices {
+		margin: 50px 0;
+		width: 220px;
+	}
+	.separator--prestations {
+		margin: 40px 0;
 	}
 }
 
